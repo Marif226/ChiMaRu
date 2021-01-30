@@ -1,0 +1,169 @@
+body {
+  background: url(images/main.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+  background-color: rgb(248, 248, 228);
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: Black;
+}
+
+hr {
+  border-style: double;
+  padding: 1px; 				/*поля вокруг текста на бордер стайл влияет*/		
+  border-width: 2px;
+}
+
+.nav-menu {
+	background: color;
+	text-align: center;
+}
+
+.nav-menu td {
+  font-size: 32px;
+}
+
+.nav-menu th {
+  font-size: 32px;
+}
+
+.nav-table {
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.nav-menu a {
+	display: block;				/* learn!!! */				
+	padding: 2px 20px;
+	color: black;
+	text-decoration: none;			/* learn!!! */
+}
+
+.active {
+  background-color: #d3d3d3;
+  border-radius: 20px;
+}
+
+.meet {
+  text-align: center;
+  font-size: 60px;
+  margin: 25px 0px;
+}
+
+.ph_round {
+    background-size: 10px auto;   /* width & height*/
+    border-radius: 150px;
+    border: 100px white;
+    box-shadow: 0 0 7px #666;
+    width: 180px;
+    height: 180px;
+    /*opacity: 1; */
+    margin-top: 10px;
+}
+
+.team {
+  border-collapse: separate;
+  border-spacing: 200px 30px;
+  text-align: center;
+}
+
+td .team {
+    padding: 5px; /* Поля вокруг текста */ 
+    border: 1px solid #a52a2a; /* Граница вокруг ячеек */ 
+   }
+
+.center-block {
+  background: Snow;
+  width: 720px;
+  height: 678px;
+  margin-top: 20px;
+  margin-left: 300px; */
+  background-color: Linen;
+  text-align: center;
+  font-family: 'Yusei Magic', sans-serif;
+  opacity: 0.8;
+} 
+
+.univer {
+  background: url(images/aitu.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+
+.univer h1 {
+  color: AliceBlue;
+  text-align: center;
+}
+
+.univer h2 {
+  color: AliceBlue;
+  text-align: center; 
+}
+
+.univer img {
+  text-align: center;
+  width: 200px;
+  height: 150px;
+}
+
+.univer .icon {
+    width: 30px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.contact-form {
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.contact-form input {
+  margin-top: 10px;
+  padding: 5px 15px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.contact-form textarea {
+  margin-top: 10px;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.contact-form select {
+  margin-top: 10px;
+  border: 1px solid; 
+  border-radius: 10px
+}
+
+.contact-form input[type=submit] {
+  cursor: pointer;
+  color: white;
+  background-color: #4691A4;
+}
+
+.map {
+  text-align: right;
+  /*padding-bottom: 200px; */
+  width: 300px;
+  height: 250px;
+  border-radius: 1px;
+}
+
+.gal {
+	display: flex;
+}
+
+.gal img {
+	width: 50%;
+}

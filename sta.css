@@ -1,0 +1,42 @@
+body{
+    background: rgb(248, 248, 228);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#department{
+    font-size: 18px;
+    color: #4169e1;
+}
+
+#projects {
+    font-size: 18px;
+    color: #4169e1;
+}
+
+#aboutme{
+  font-size: 18px;
+  color: #4169e1;
+}
+
+.menu{
+    list-style-type: none;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  
+  .menu a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(248, 248, 228);
+  }
+  
+  .menu li{
+    float: right;
+  }
+  

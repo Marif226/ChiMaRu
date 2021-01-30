@@ -1,0 +1,201 @@
+body {
+    background: url(images/nature.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.center_block {
+    background: #fc0;
+    width: 576px;
+    height: 528px;
+    margin-top: 70px;
+    margin-left: 400px;
+    background-color: Linen;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.about_me {
+    background: #fc0;
+    width: 576px;
+    height: 565px;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: Linen;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.hobby {
+    background: #fc0;
+    width: 576px;
+    height: 528px;
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: Linen;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.contact {
+    background: #fc0;
+    width: 576px;
+    height: 528px;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    background-color: Linen;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: DarkSlateGrey; /* Цвет фона */
+    color: White; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+}
+
+.menu {
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 190px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 10%; /* Full width */
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.menu a {
+    text-decoration: none;   /*убираем подчеркивание текста ссылок*/                         /* !!!!!!!!! */
+    font-family: 'Yusei Magic', sans-serif;
+    color: #5757a0;
+    display: block;
+    padding: 10px 20px;
+    background-color: lavender;                      /* !!!!!!!! */
+    border-bottom: 5px solid #5757a0; 
+    flex-basis: auto;
+    flex-grow: 1;              /* !!!!!!!!! */
+}
+
+.menu li {
+    display: block;
+    margin-right: -5px;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+.ph_round {
+    background-size: 10px auto;   /* width & height*/
+    border-radius: 150px;
+    border: 100px white;
+    box-shadow: 0 0 7px #666;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+.hi {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+strong {
+    color: Gold;
+}
+
+.desc {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    color: gray;
+    padding: 0px 55px;
+}
+
+hr {
+    max-width: 250px;
+}
+
+p {
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.active {
+  background-color: White;
+}
+
+.dot {
+    border-top-style: dotted;
+    width: 10%;
+}
+
+.about_me strong {
+    color: LightSteelBlue;
+    margin-left: -450px;
+}
+
+.foot_ph {
+    width: 200px;
+    height: 200px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 100px white;
+    box-shadow: 0 0 7px #666;
+    margin: 15px 25px 10px 35px;
+}
+
+.project img {
+    width: 200px;
+    height: 150px;
+    border-radius: 150px;
+    border: 100px white;
+    box-shadow: 0 0 7px #666;
+}
+
+.project strong {
+    color: SlateGrey;
+}
+
+.project li {
+    padding: 0px 15px;
+}
+
+.contact strong {
+    color: LightSkyBlue;
+}
+
+form {
+    /* Расположим форму по центру страницы */
+  margin: 0 auto;
+  width: 350px;
+  /* Определим контур формы */
+  padding: 10px;
+  border: 2px solid #CCC;
+  border-radius: 30px;
+}
+
+.contact input {
+    margin-top: 7px;
+}
+
+.contact textarea {
+    margin-top: 7px;
+}
+

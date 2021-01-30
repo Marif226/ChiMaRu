@@ -1,0 +1,27 @@
+.center-block {
+  background: Snow;
+  width: 720px;
+  height: 528px;
+  margin-top: 20px;
+  margin-left: 300px; */
+  background-color: Linen;
+  text-align: center;
+  font-family: 'Yusei Magic', sans-serif;
+} 
+
+.univer {
+  background: url(images/aitu.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+
+.univer h1 {
+  color: AliceBlue;
+  text-align: center;
+}
+
+.univer h2 {
+  color: AliceBlue;
+  text-align: center; 
+}
